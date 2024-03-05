@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main">
+    <div id="Header">
+        <h1>Survey Form</h1>
+    </div>
+    <div id="topseparator" class="seperator"></div>
+    <div>
+        <div >
+        <label id="lblName" for="tbxName">Name</label>
+        <input type="text" id="tbxName" placeholder="Enter Name" class="textboxes">
+        </div>
+        <div>
+        <label id="lblEmail" for="tbxEmail">Email</label>
+        <input id="tbxEmail" type="email" placeholder="Enter Email" class="textboxes">
+        </div>
+        <div>
+        <label id="lblAge" for="tbxAge">Age</label>
+        <input id="tbxAge" placeholder="Enter Age" class="textboxes">
+        </div>
+        <div>
+        <label id="Education">Which option best describes you?</label>
+        <select id="dropdownEdu" class="dropdowns">
+            <option id="HSC" name="education" value="HSC">HSC</option>
+            <option id="Bachelors" name="education" value="Bachelors" selected>Bachelors</option>
+            <option id="Masters" name="education" value="Masters">Masters</option>
+            <option id="Working" name="education" value="Working">Working</option>
+        </select>
+        </div>
+        <div>
+        <label id="lblhigherstud">Are you planning for higher studies?</label>
+        <div class="radioHS">
+            <input type="radio" name="higherstudies" id="rdoHigherStudiesyes" >
+            <label id="yes" style="display: inline;">Yes</label>
+        </div>
+        <div class="radioHS">
+            <input type="radio" name="higherstudies" id="rdoHigherStudiesno" >
+            <label id="no" style="display: inline;">No</label>
+        </div>
+        <div class="radioHS">
+            <input type="radio" name="higherstudies" id="rdoHigherStudiesmaybe" >
+            <label id="maybe" style="display: inline;">Maybe</label>
+        </div>
+        </div>
+        <label id="lblLang">Languages Known:</label>
+        <div class="checkboxes">
+            <input type="checkbox" value="HTML">
+            <label id="Html" style="display: inline;">HTML</label></br>
+            <input type="checkbox" value="HTML">
+            <label id="css" style="display: inline;">CSS</label></br>
+            <input type="checkbox" value="HTML">
+            <label id="js" style="display: inline;">Javascript</label></br>
+            <input type="checkbox" value="HTML">
+            <label id="java" style="display: inline;">Java</label></br>
+            <input type="checkbox" value="HTML">
+            <label id="python" style="display: inline;">Python</label></br>
+            <input type="checkbox" value="HTML">
+            <label id="type" style="display: inline;">Typescript</label></br>
+        </div>
+            <label id="comments">Comments:</label>
+            <textarea id="tbxcomment" style="height:50px;"></textarea>
+        <button type="submit" id="submit">submit</button>
+    </div>
+</div>
+</body>
+</html>

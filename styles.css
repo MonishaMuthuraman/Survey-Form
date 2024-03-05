@@ -1,0 +1,45 @@
+body{
+    background-color:rgb(214, 209, 224);
+}
+#main{
+    background-color: rgb(233, 230, 227);
+    width:80%;
+    border:1px black groove;
+    margin: auto;
+    text-align:center;
+    color:rgb(104, 4, 63);
+    font-family :Arial;
+}
+label{
+    display: block;
+    margin: 7px auto;
+    width:80%;
+    text-align: left;
+}
+.textboxes,.dropdowns,textarea{
+    display: block;
+    width: 80%;
+    margin:5px auto;
+    height: 25px;
+}
+.seperator{
+    width:90%;
+    margin:20px auto;
+    height:1px;
+    background-color:rgb(227, 190, 212);
+}
+.radioHS,.checkboxes{
+    text-align: left; 
+    width:80%; 
+    margin:auto
+}
+button{
+    background-color: rgb(208, 188, 226);
+    color: rgb(52, 8, 94);
+    padding: 5px;
+    border: none;
+    border-radius:5px;
+    margin: 10px auto 15px;
+    width: 80%;
+    font-size: 20px;
+}
